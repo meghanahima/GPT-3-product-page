@@ -1,6 +1,13 @@
 .nav{
-    position:relative;
-    top:15px;
+    /* position:relative;
+    top:15px; */
+    width:100%;
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:200;
+    background-color: rgba(0, 40, 83, 1);
+    backdrop-filter:blur(1px);
     padding:2rem 6rem;
     height:55px;
     display:flex;
@@ -40,7 +47,7 @@
     margin:0 1rem;
     cursor:pointer;
 }
-.nav-sign button{
+.nav-sign button,.nav-toggle-container-sign button{
     font-size: 18px;
     font-weight: 500;
     padding:0.3rem 0.7rem;

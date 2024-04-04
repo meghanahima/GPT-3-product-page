@@ -3,12 +3,12 @@ import '../../App.css'
 import './header.css'
 import illu from '../../assets/images/Illustration.png'
 import people from '../../assets/images/people.png'
-import { Navbar } from '../../components'
+
 export default function Header() {
   return (
     <>
     <div className='gradient-bg'>
-      <Navbar/>
+      
       <div className='header-section section-padding padding'>
         <div className='header-content'>
 
@@ -26,12 +26,12 @@ export default function Header() {
           </div>
 
           <div className='header-content-peep'>
-            <img src={people}/>
+            <img src={people} alt="img"/>
             <p className='header-content-peep-para'>1,600 people requested access a visit in last 24 hours</p>
           </div>
         </div>
         <div className='header-content-image'>
-          <img src={illu}/>
+          <img src={illu} alt="img"/>
         </div>
       </div>
     </div>

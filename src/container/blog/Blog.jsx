@@ -31,7 +31,7 @@ const blogsData=[
 ]
 export default function Blog() {
   return (
-    <div className="bg section-padding">
+    <div id="library" className="bg section-padding">
       {
       blogsData.map((item,index)=>{
         return <Article blogimg={item.blogimg} date={item.date} title={item.title} key={index}/>

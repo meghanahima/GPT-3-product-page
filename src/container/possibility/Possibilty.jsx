@@ -4,7 +4,7 @@ import './Possibilty.css'
 export default function Possibilty() {
   return (
     <>
-      <div className='possibilty-section section-padding'>
+      <div id="case-studies" className='possibilty-section section-padding'>
         <div className='possibility-img'><img src={img1}/></div>
         <div className='possibility-content'>
           <p>Request Early Access to Get Started</p>

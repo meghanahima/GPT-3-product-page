@@ -6,9 +6,9 @@ const Links=()=>(
   <>
     <p className='nav-links-text'><a href="#home">Home</a></p>
     <p className='nav-links-text'><a href="#gpt3">What is GPT?</a></p>
-    <p className='nav-links-text'><a href="#">Open AI</a></p>
-    <p className='nav-links-text'><a href="#">Case Studies</a></p>
-    <p className='nav-links-text'><a href="#">Library</a></p>
+    <p className='nav-links-text'><a href="#open-ai">Open AI</a></p>
+    <p className='nav-links-text'><a href="#case-studies">Case Studies</a></p>
+    <p className='nav-links-text'><a href="#library">Library</a></p>
   </>
 )
 const Sign=()=>(
@@ -24,7 +24,7 @@ export default function Navbar(){
 
       <div className='nav-links'>
         <div className='nav-links-logo'>
-          <img src={logo}/>
+          <img src={logo} alt="img"/>
         </div>
         <div className='nav-links-items'>
           <Links/>

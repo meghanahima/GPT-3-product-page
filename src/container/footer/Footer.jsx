@@ -10,7 +10,7 @@ export default function Footer() {
       </div>
 
       <div className='footer-about'>
-        <div className='footer-logo'><img src={logo}/><p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p></div>
+        <div className='footer-logo'><img src={logo} alt="img"/><p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p></div>
 
         <div className='footer-links'>
           <ul>

@@ -21,7 +21,7 @@ const FeaturesData=[
 ]
 export default function Features() {
   return (
-    <div className='section-padding Features'>
+    <div id="open-ai" className='section-padding Features'>
       <div className='Features-1'>
         <p className='Features-gradient-text gradient-text'>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</p>
         <p className='Features-p'>Request Early Access to Get Started</p>
@@ -29,7 +29,7 @@ export default function Features() {
       <div className='Features-2'>
         {
           FeaturesData.map((item,index)=>(
-            <Nature title={item.title} desc={item.desc} key={index}/>
+            <Nature title={item.title} desc={item.desc} key={index} className="nature"/>
           ))
         }
       </div>

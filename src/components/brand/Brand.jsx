@@ -5,11 +5,11 @@ import './brand.css'
 export default function Brand() {
   return (
     <div className='brand-content section-padding'>
-      <div className='google'><img src={google}></img></div>
-      <div className='slack'><img src={slack}></img></div>
-      <div className='atlassian'><img src={atlassian}></img></div>
-      <div className='dropbox'><img src={dropbox}></img></div>
-      <div className='shopify'><img src={shopify}></img></div>
+      <div className='google'><img src={google} alt="img"></img></div>
+      <div className='slack'><img src={slack} alt="img"></img></div>
+      <div className='atlassian'><img src={atlassian} alt="img"></img></div>
+      <div className='dropbox'><img src={dropbox} alt="img"></img></div>
+      <div className='shopify'><img src={shopify} alt="img"></img></div>
     </div>
   )
 }
